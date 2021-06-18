@@ -1,0 +1,33 @@
+.header-container, .results-container {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 10px; 
+}
+
+.header-container .headers, .results-container .topStateResults {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 40px;
+
+}
+
+.topStateResults .statename, .topStateResults .badges, .topStateResults .week, .headers .header {
+  flex: 1 0 25%;
+}
+
+.input-container .value {
+flex: 1;
+font-size: 5rem;
+align-content: center
+}
+.input-container .slider {
+flex: 6;
+-webkit-appearance: none;
+width: 95%;
+height: 15px;
+border-radius: 5px;
+background: #efefef;
+outline: none;
+
+}

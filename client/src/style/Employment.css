@@ -1,0 +1,40 @@
+.statenames-container {
+  /* margin: 10px 0; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  /* border-bottom: 1px solid #ddd; */
+}
+
+.statenames-container .statename {
+  flex: 1 0 20%;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.statenames-container .statename:hover {
+  background-color: #ddd;
+}
+
+.header-container, .results-container {
+  display: flex;
+  flex-flow: column wrap;
+  /* margin-top: 10px; */
+}
+
+.header-container .headers, .results-container .stateoverview {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 40px;
+}
+
+.stateoverview .emp_combined, .stateoverview .emp_combined_inchigh, .stateoverview .emp_combined_incmiddle, .stateoverview .emp_combined_inclow, .headers .header {
+  flex: 1 0 25%
+  
+}
+
+
+
